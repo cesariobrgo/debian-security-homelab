@@ -1,0 +1,31 @@
+# Private runtime configuration and credentials
+.env
+.env.*
+!.env.example
+!.example.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.ovpn
+*.conf.private
+*secret*
+*token*
+AdGuardHome.yaml
+*AdGuardHome.yaml*
+# Logs, packet captures and backups
+*.log
+*.sqlite
+*.db
+logs/
+backups/
+private/
+screenshots/
+*.pcap
+*.pcapng
+# Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
